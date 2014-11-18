@@ -385,4 +385,100 @@ LogInit: Rocket: 1
 [2014.11.18-10.28.59:916][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
 [2014.11.18-10.28.59:929][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000020468128E0
 [2014.11.18-10.28.59:948][ 46]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000202933A700
-[20
+[2014.11.18-10.29.04:193][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.18-10.29.04:271][268]LogSavePackage: Save=36.081123ms
+[2014.11.18-10.29.04:271][268]LogSavePackage: Moving '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/Example_MapE816A0424AE4C1AD3534329D04950C9C.tmp' to '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Content/Maps/Example_Map.umap'
+[2014.11.18-10.31.30:629][927]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.18-10.31.30:630][927]PIE: New page: PIE session: Example_Map (Nov 18, 2014, 12:31:30 AM)
+[2014.11.18-10.31.30:653][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023230s)
+[2014.11.18-10.31.30:654][927]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2014.11.18-10.31.30:654][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.024341s)
+[2014.11.18-10.31.30:691][927]LogWorld: Game class is 'MyGame_C'
+[2014.11.18-10.31.30:692][927]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.18-10.31.30:696][927]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.18-05.31.30
+[2014.11.18-10.31.30:696][927]LogWorld: Bringing up level for play took: 0.004215
+[2014.11.18-10.31.30:697][927]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.881
+[2014.11.18-10.31.44:233][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_17) Not registered. Aborting.
+[2014.11.18-10.31.44:233][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.11.18-10.31.44:248][620]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002046821080
+[2014.11.18-10.34.41:888][359]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.11.18-10.34.47:837][471]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 ../../../../../../Users/Matthew/Desktop/Yellow.wav)
+[2014.11.18-10.34.47:860][471]LogAudioDerivedData:Display: Building compressed audio format OGG wave Yellow...
+[2014.11.18-10.34.47:877][471]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Yellow.Yellow.
+[2014.11.18-10.34.47:879][471]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.18-10.34.47:879][471]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.11.18-10.34.51:596][562]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 ../../../../../../Users/Matthew/Desktop/blue.wav)
+[2014.11.18-10.34.51:616][562]LogAudioDerivedData:Display: Building compressed audio format OGG wave blue...
+[2014.11.18-10.34.51:641][562]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/blue.blue.
+[2014.11.18-10.34.51:643][562]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.18-10.34.51:643][562]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.11.18-10.34.59:317][682]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 ../../../../../../Users/Matthew/Desktop/Red.wav)
+[2014.11.18-10.34.59:332][682]LogAudioDerivedData:Display: Building compressed audio format OGG wave Red...
+[2014.11.18-10.34.59:342][682]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Red.Red.
+[2014.11.18-10.34.59:344][682]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.18-10.34.59:344][682]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.11.18-10.35.07:782][136]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.18-10.37.11:311][719]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.18-10.37.11:311][719]LogPlayLevel: [PIE] Compiling MyProjectile before PIE...
+[2014.11.18-10.37.11:368][719]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.18-10.37.11:436][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_18) Not registered. Aborting.
+[2014.11.18-10.37.11:436][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.11.18-10.37.11:455][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000020376C49A0
+[2014.11.18-10.37.11:460][719]LogPlayLevel: PIE:  Blueprint regeneration took 148 ms (2 blueprints)
+[2014.11.18-10.37.11:460][719]PIE: New page: PIE session: Example_Map (Nov 18, 2014, 12:37:11 AM)
+[2014.11.18-10.37.11:478][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017927s)
+[2014.11.18-10.37.11:479][719]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2014.11.18-10.37.11:479][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.018971s)
+[2014.11.18-10.37.11:518][719]LogWorld: Game class is 'MyGame_C'
+[2014.11.18-10.37.11:519][719]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.18-10.37.11:523][719]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.18-05.37.11
+[2014.11.18-10.37.11:524][719]LogWorld: Bringing up level for play took: 0.004061
+[2014.11.18-10.37.11:525][719]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.291
+[2014.11.18-10.37.14:210][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.11.18-10.37.14:243][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000204FFE9DA0
+[2014.11.18-10.37.15:934][958]Cmd: SELECT NONE
+[2014.11.18-10.38.33:069][717]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.18-10.38.33:076][717]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_19) Not registered. Aborting.
+[2014.11.18-10.38.33:076][717]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.11.18-10.38.33:076][717]LogPlayLevel: [PIE] Compiling MyProjectile before PIE...
+[2014.11.18-10.38.33:135][717]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.18-10.38.33:229][717]LogPlayLevel: PIE:  Blueprint regeneration took 159 ms (2 blueprints)
+[2014.11.18-10.38.33:229][717]PIE: New page: PIE session: Example_Map (Nov 18, 2014, 12:38:33 AM)
+[2014.11.18-10.38.33:251][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021869s)
+[2014.11.18-10.38.33:252][717]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2014.11.18-10.38.33:252][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022810s)
+[2014.11.18-10.38.33:292][717]LogWorld: Game class is 'MyGame_C'
+[2014.11.18-10.38.33:293][717]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.18-10.38.33:297][717]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.18-05.38.33
+[2014.11.18-10.38.33:297][717]LogWorld: Bringing up level for play took: 0.004318
+[2014.11.18-10.38.33:299][717]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.518
+[2014.11.18-10.38.47:873][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.11.18-10.38.47:873][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_20) Not registered. Aborting.
+[2014.11.18-10.38.47:889][460]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000203AF33420
+[2014.11.18-10.38.47:909][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002044537600
+[2014.11.18-10.39.35:542][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_21) Not registered. Aborting.
+[2014.11.18-10.39.35:542][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.11.18-10.39.35:558][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.016
+[2014.11.18-10.39.35:564][483]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.11.18-10.39.35:595][483]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.11.18-10.39.35:595][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.11.18-10.39.35:904][483]LogSavePackage: Save=283.767578ms
+[2014.11.18-10.39.35:904][483]LogSavePackage: Moving '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/MyCharacter_Auto25E288DC843DA50457E96B4AB78E56395.tmp' to '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset'
+[2014.11.18-10.39.35:915][483]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyProjectile] ([1] browsable assets)...
+[2014.11.18-10.39.35:937][483]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyProjectile.MyProjectile]
+[2014.11.18-10.39.35:937][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyProjectile]
+[2014.11.18-10.39.36:338][483]LogSavePackage: Save=383.148926ms
+[2014.11.18-10.39.36:339][483]LogSavePackage: Moving '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/MyProjectile_Auto270A7F44849B2D7A0FDE72390EFFF02E7.tmp' to '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/Autosaves/Game/Blueprints/MyProjectile_Auto2.uasset'
+[2014.11.18-10.39.36:351][483]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/Yellow] ([1] browsable assets)...
+[2014.11.18-10.39.36:362][483]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/Yellow.Yellow]
+[2014.11.18-10.39.36:362][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Yellow]
+[2014.11.18-10.39.36:364][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Yellow" FILE="../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/Autosaves/Game/Audio/Yellow_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2014.11.18-10.39.36:404][483]LogSavePackage: Save=16.919298ms
+[2014.11.18-10.39.36:404][483]LogSavePackage: Moving '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/Yellow_Auto278D12A284C0E7BAE6819A1B248B9FCC2.tmp' to '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/Autosaves/Game/Audio/Yellow_Auto2.uasset'
+[2014.11.18-10.39.36:416][483]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/blue] ([1] browsable assets)...
+[2014.11.18-10.39.36:429][483]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/blue.blue]
+[2014.11.18-10.39.36:429][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/blue]
+[2014.11.18-10.39.36:431][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/blue" FILE="../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/Autosaves/Game/Audio/blue_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2014.11.18-10.39.36:468][483]LogSavePackage: Save=14.393328ms
+[2014.11.18-10.39.36:468][483]LogSavePackage: Moving '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/blue_Auto27129931144F54B0E8979BDBBE0A9B9F6.tmp' to '../../../../../../Users/Matthew/Dropbox/Unreal/Unlit/Saved/Autosaves/Game/Audio/blue_Auto2.uasset'
+[2014.11.18-10.39.36:479][483]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/Red] ([1] browsable assets)..
